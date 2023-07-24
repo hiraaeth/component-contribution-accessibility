@@ -37,7 +37,7 @@ body:
       options:
         - label: Yes, it can
         - label: No, it cannot
-          required: true  
+          required: false 
 
   - type: markdown
     attributes:
@@ -54,7 +54,7 @@ body:
         - label: '"Enter" activates'
         - label: '"Space" selects'
         - label: '"Esc" closes'
-          required: true  
+          required: false  
 
   - type: textarea
     id: visual-examples
