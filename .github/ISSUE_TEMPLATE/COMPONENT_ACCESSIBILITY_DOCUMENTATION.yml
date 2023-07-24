@@ -32,6 +32,6 @@ body:
     attributes:
       label: Can it be opened/expanded to reveal a child/subcomponent?
       description: if the child/subcomponent is non-interactive, visual states may not be needed
-        - label: It can
-        - label: It cannot
+        - label: Yes, it can
+        - label: No, it cannot
           required: false
