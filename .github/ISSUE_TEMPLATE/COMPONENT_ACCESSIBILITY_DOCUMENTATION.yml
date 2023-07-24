@@ -5,7 +5,7 @@ labels: 'accessibility'
 body:
   - type: markdown
     attributes:
-      value:
+      value: |
         Complete the following steps for Carbon to review the accessibility portion of the [component contribution process](https://carbondesignsystem.com/contributing/component/).
 
         1. Define component
