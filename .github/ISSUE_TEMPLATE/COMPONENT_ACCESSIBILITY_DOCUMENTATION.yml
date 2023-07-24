@@ -14,9 +14,9 @@ body:
           4. Repeat steps 2 – 3 for each variant, if any
           5. Repeat step 3 for each child/subcomponent, if any
 
-        '_*variants are only when the interaction differs from default component, not when there are only visual differences_'
+        _*variants are only when the interaction differs from default component, not when there are only visual differences_
 
-        '_*if the child/subcomponent is non-interactive, visual states may not be needed_'
+        _*if the child/subcomponent is non-interactive, visual states may not be needed_
   - type: textarea
     id: problem
     attributes:
