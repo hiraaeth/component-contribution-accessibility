@@ -14,17 +14,14 @@ body:
         4. Repeat steps 2 – 3 for each variant, if any
         5. Repeat step 3 for each child/subcomponent, if any
 
-        _*variants are only when the interaction differs from default component, not when there are only visual differences_
-
-        _*if the child/subcomponent is non-interactive, visual states may not be needed_
   - type: markdown
     attributes:
       value: '## 1. Define component'      
   - type: checkboxes
     id: type
     attributes:
-      label: 
-      description: Component type
+      label: Component type
+      description: variants are only when the interaction differs from default component, not when there are only visual differences
       options:
         - label:
             Variant of existing component
@@ -32,4 +29,14 @@ body:
             New component with no variants
         - label:
             New component with variants
+          required: false
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Can it be opened/expanded to reveal a child/subcomponent?
+      description: if the child/subcomponent is non-interactive, visual states may not be needed
+        - label:
+            Yes
+        - label:
+            No
           required: false
