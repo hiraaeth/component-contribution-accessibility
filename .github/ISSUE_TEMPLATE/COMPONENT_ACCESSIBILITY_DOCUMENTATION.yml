@@ -28,7 +28,7 @@ body:
         - label: New component with variants
           required: false
   - type: checkboxes
-    id: type
+    id: subcomponent
     attributes:
       label: Can it be opened/expanded to reveal a child/subcomponent?
       description: if the child/subcomponent is non-interactive, visual states may not be needed
