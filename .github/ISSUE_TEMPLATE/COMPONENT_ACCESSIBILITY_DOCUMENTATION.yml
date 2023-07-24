@@ -23,20 +23,15 @@ body:
       label: Component type
       description: variants are only when the interaction differs from default component, not when there are only visual differences
       options:
-        - label:
-            Variant of existing component
-        - label:
-            New component with no variants
-        - label:
-            New component with variants
+        - label: Variant of existing component
+        - label: New component with no variants
+        - label: New component with variants
           required: false
   - type: checkboxes
     id: type
     attributes:
       label: Can it be opened/expanded to reveal a child/subcomponent?
       description: if the child/subcomponent is non-interactive, visual states may not be needed
-        - label:
-            Yes
-        - label:
-            No
+        - label: It can
+        - label: It cannot
           required: false
