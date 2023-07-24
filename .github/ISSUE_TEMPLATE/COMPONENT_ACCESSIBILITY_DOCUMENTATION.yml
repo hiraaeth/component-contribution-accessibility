@@ -21,12 +21,15 @@ body:
     attributes:
       value: '## 1. Define component'      
   - type: checkboxes
-    id: terms
+    id: type
     attributes:
-      label: Code of Conduct
-      description: Please confirm the following
+      label: Component type
+      description: 
       options:
         - label:
-            I agree to follow this project's [Code of
-            Conduct](https://github.com/carbon-design-system/carbon/blob/f555616971a03fd454c0f4daea184adf41fff05b/.github/CODE_OF_CONDUCT.md)
-          required: true
+            Variant of existing component
+        - label:
+            New component with no variants
+        - label:
+            New component with variants
+          required: false
