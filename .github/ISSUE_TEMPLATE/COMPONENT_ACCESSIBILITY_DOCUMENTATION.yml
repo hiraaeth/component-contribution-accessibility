@@ -35,4 +35,14 @@ body:
       options:
         - label: Yes, it can
         - label: No, it cannot
+          required: false   
+  - type: checkboxes
+    id: keyboard
+    attributes:
+      label: '## 2. Document keyboard interactions'
+      description: Select all that apply to your component
+      options:
+        - label: `tab` moves between interactive components
+        - label: `⇅` `⇄` moves between component and subcomponent
+        - label: `enter` activates
           required: false
