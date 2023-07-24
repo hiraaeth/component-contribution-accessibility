@@ -35,7 +35,8 @@ body:
       options:
         - label: Yes, it can
         - label: No, it cannot
-          required: false   
+          required: false  
+  \
   - type: markdown
     attributes:
       value: '## 2. Document keyboard interactions'      
