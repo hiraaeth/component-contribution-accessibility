@@ -23,8 +23,8 @@ body:
   - type: checkboxes
     id: type
     attributes:
-      label: Component type
-      description: 
+      label: 
+      description: Component type
       options:
         - label:
             Variant of existing component
