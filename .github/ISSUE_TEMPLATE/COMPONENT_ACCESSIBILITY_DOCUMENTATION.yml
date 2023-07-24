@@ -36,11 +36,14 @@ body:
         - label: Yes, it can
         - label: No, it cannot
           required: false   
+  - type: markdown
+    attributes:
+      value: '## 2. Document keyboard interactions'
   - type: checkboxes
     id: keyboard
     attributes:
-      label: '## 2. Document keyboard interactions'
-      description: Select all that apply to your component
+      label: Select all that apply to your component
+      description: 
       options:
         - label: '"Tab" moves between interactive components'
         - label: Arrow keys moves between component and subcomponent
