@@ -17,17 +17,14 @@ body:
         _*variants are only when the interaction differs from default component, not when there are only visual differences_
 
         _*if the child/subcomponent is non-interactive, visual states may not be needed_
- 
   - type: markdown
     attributes:
-      value: '## 1. Define component'
-      
+      value: '## 1. Define component'      
    - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: Please conf
-      
+      description: Please conf     
   - type: textarea
     id: problem
     attributes:
