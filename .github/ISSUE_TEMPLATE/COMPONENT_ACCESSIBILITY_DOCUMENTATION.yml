@@ -8,15 +8,15 @@ body:
       value: |
         Complete the following steps for Carbon to review the accessibility portion of the [component contribution process](https://carbondesignsystem.com/contributing/component/).
 
-        1. Define component
-        2. Document keyboard interactions
-        3. Provide visual states
-        4. Repeat steps 2 – 3 for each variant, if any
-        5. Repeat step 3 for each child/subcomponent, if any
+          1. Define component
+          2. Document keyboard interactions
+          3. Provide visual states
+          4. Repeat steps 2 – 3 for each variant, if any
+          5. Repeat step 3 for each child/subcomponent, if any
 
-        -*variants are only when the interaction differs from default component, not when there are only visual differences-
+        '*variants are only when the interaction differs from default component, not when there are only visual differences'
 
-        -*if the child/subcomponent is non-interactive, visual states may not be needed-
+        '*if the child/subcomponent is non-interactive, visual states may not be needed'
   - type: textarea
     id: problem
     attributes:
