@@ -1,0 +1,73 @@
+name: Component accessibility documentation
+description: Submit the accessibility portion of your component 
+title: '[Component name] component – accessibility: '
+labels: 'accessibility'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Complete the following steps for Carbon to review the accessibility portion of the [component contribution process](https://carbondesignsystem.com/contributing/component/).
+
+          1. Define component
+          2. Document keyboard interactions
+          3. Provide visual states
+          4. Repeat steps 2 – 3 for each variant, if any
+          5. Repeat step 3 for each child/subcomponent, if any
+
+        _*variants are only when the interaction differs from default component, not when there are only visual differences_
+
+        _*if the child/subcomponent is non-interactive, visual states may not be needed_
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description:
+        'Provide a clear and concise description of what the problem this new feature is trying to solve. (For example, I find it frustrating when...). Be sure to attach screenshots or videos to illustrate the problem.'
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: The solution
+      description: 'Provide a clear and concise description of what you would like to happen instead. Be sure to attach screenshots or videos to illustrate the solution if possible. Design specs are highly encouraged.'
+    validations:
+      required: true
+  - type: textarea
+    id: user-research
+    attributes:
+      label: Examples
+      description: Provide sample content, references, or audits of solutions solving the same problem in other applications/websites.
+  - type: input
+    id: application
+    attributes:
+      label: Application/PAL
+      description: "What application and/or PAL do you work on?"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Business priority
+      options:
+        - 'High Priority = pressing release'
+        - 'Medium Priority = upcoming release but is not pressing'
+        - 'Low Priority = release date is not dependent on fix or not upcoming'
+  - type: input
+    id: resources
+    attributes:
+      label: Available extra resources
+      description: 'What resources do you have to assist this effort?'
+  - type: markdown
+    attributes:
+      value:
+        '_Carbon is a collaborative system. We encourage teams to build
+        components and submit them for integration as either add-ons or core
+        components. To better understand our feature request process and what happends after you submit this issue, [check out the docs](https://github.com/carbon-design-system/carbon/blob/main/docs/guides/support.md#type-enhancement-) on Github._'
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Please confirm the following
+      options:
+        - label:
+            I agree to follow this project's [Code of
+            Conduct](https://github.com/carbon-design-system/carbon/blob/f555616971a03fd454c0f4daea184adf41fff05b/.github/CODE_OF_CONDUCT.md)
+          required: true
