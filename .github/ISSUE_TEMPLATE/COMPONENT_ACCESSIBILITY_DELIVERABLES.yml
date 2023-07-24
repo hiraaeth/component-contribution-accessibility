@@ -27,7 +27,7 @@ body:
         - label: Variant of existing component
         - label: New component with no variants
         - label: New component with variants
-      required: true
+          required: false
 
   - type: checkboxes
     id: subcomponent
