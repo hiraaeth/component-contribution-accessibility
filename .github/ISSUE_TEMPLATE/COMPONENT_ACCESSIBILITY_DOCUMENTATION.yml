@@ -42,8 +42,8 @@ body:
   - type: checkboxes
     id: keyboard
     attributes:
-      label: Select all that apply to your component
-      description: \
+      label:   
+      description: Select all that apply to your component
       options:
         - label: '"Tab" moves between interactive components'
         - label: Arrow keys moves between component and subcomponent
