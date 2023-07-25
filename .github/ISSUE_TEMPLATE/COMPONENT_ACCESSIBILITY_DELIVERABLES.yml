@@ -50,7 +50,7 @@ body:
       description: 
       options:
         - label: '"Tab" moves between interactive components'
-        - label: Arrow keys moves between component and subcomponent
+        - label: Arrow keys move between component and subcomponent
         - label: '"Enter" activates'
         - label: '"Space" selects'
         - label: '"Esc" closes'
@@ -59,8 +59,8 @@ body:
   - type: textarea
     id: visual-examples
     attributes:
-      label: Keyboard interaction visual examples
-      description: 'Provide screenshots or a figma link to visual examples. In the early stages of contribution, only low fidelity visuals are required, but high fidelity visuals should be created by the time the component is ready to be published. Duplicate this [figma file](https://www.figma.com/file/PmSOwLS3ldpSQtUf4xlaLD/lo-fi-keyboard-interaction-visual?type=design&node-id=434-4103&t=kO1MZkuNTKMIAj0h-0) to see examples and use the provided assets.'
+      label: Create keyboard interaction visual examples
+      description: 'Provide screenshots or a figma link. In the early stages of contribution, only low fidelity visuals are required, but high fidelity visuals should be created by the time the component is ready to be published. Duplicate this [figma file](https://www.figma.com/file/PmSOwLS3ldpSQtUf4xlaLD/lo-fi-keyboard-interaction-visual?type=design&node-id=434-4103&t=kO1MZkuNTKMIAj0h-0) to see examples and use the provided assets.'
     validations:
       required: true
 
@@ -71,6 +71,6 @@ body:
     id: visual-states
     attributes:
       label: Focused and non-focused states for default, selected, error (if any) and error + selected (if any)
-      description: 'Provide screenshots or a figma link to visual states for accessibility. This is in addition to what Carbon may require. Duplicate this [figma file](https://www.figma.com/file/PmSOwLS3ldpSQtUf4xlaLD/lo-fi-keyboard-interaction-visual?type=design&node-id=434-4103&t=kO1MZkuNTKMIAj0h-0) to see examples and use the provided template.'
+      description: 'Provide screenshots or a figma link. This is in addition to what Carbon may require. Duplicate this [figma file](https://www.figma.com/file/PmSOwLS3ldpSQtUf4xlaLD/lo-fi-keyboard-interaction-visual?type=design&node-id=434-4103&t=kO1MZkuNTKMIAj0h-0) to see examples and use the provided template.'
     validations:
       required: true
