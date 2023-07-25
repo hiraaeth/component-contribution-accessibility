@@ -81,6 +81,17 @@ body:
 
   - type: markdown
     attributes:
+      value: '### Components with child/subcomponents'   
+
+  - type: markdown
+    attributes:
       value: |
         – Components with child/subcomponents
+        
+  - type: markdown
+    attributes:
+      value: '### Others'  
+  - type: markdown
+    attributes:
+      value: |
         – For labeling and states, see [accordion](https://carbondesignsystem.com/components/accordion/accessibility),
