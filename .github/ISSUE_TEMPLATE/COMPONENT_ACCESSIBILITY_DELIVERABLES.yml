@@ -27,7 +27,7 @@ body:
         - label: Variant of existing component
         - label: New component with no variants
         - label: New component with variants
-      required: true
+        required: true
 
   - type: checkboxes
     id: subcomponent
@@ -37,7 +37,7 @@ body:
       options:
         - label: Yes, it can
         - label: No, it cannot
-      required: true 
+        required: true 
 
   - type: markdown
     attributes:
@@ -54,7 +54,7 @@ body:
         - label: '"Enter" activates'
         - label: '"Space" selects'
         - label: '"Esc" closes'
-      required: true  
+        required: true  
 
   - type: textarea
     id: visual-examples
