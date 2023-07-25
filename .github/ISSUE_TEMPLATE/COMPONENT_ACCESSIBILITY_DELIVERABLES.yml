@@ -74,3 +74,13 @@ body:
       description: 'Provide screenshots or a figma link. This is in addition to what Carbon may require. Duplicate the [figma file](https://www.figma.com/file/PmSOwLS3ldpSQtUf4xlaLD/lo-fi-keyboard-interaction-visual?type=design&node-id=434-4103&t=kO1MZkuNTKMIAj0h-0) to see examples and use the provided template.'
     validations:
       required: true
+      
+  - type: markdown
+    attributes:
+      value: '## Additional examples'   
+
+  - type: markdown
+    attributes:
+      value: |
+        – Components with child/subcomponents
+        – For labeling and states, see [accordion](https://carbondesignsystem.com/components/accordion/accessibility),
