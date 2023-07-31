@@ -49,11 +49,11 @@ body:
       label: Select all that apply
       description: 
       options:
-        - label: '<kbd>Tab</kbd> moves between interactive components'
+        - label: '"Tab" moves between interactive components'
         - label: Arrow keys move between component and subcomponent
-        - label: '<kbd>Enter</kbd> activates'
-        - label: '<kbd>Space</kbd> selects'
-        - label: '<kbd>Esc</kbd> closes'
+        - label: '"Enter" activates'
+        - label: '"Space" selects'
+        - label: '"Esc" closes'
           required: false
 
   - type: textarea
